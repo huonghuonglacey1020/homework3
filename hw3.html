@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="hw3.css">
+    <script src="hw3.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Password Generator</h2>
+      <textarea
+      readonly
+      id="password"
+      placeholder="Your Secure Password"
+      aria-label="Generated Password"
+    ></textarea>
+    <button class="button">Generate</button> 
+    <button class="button">Copy to the clipboard</button>   
+
+    <div class="setting">
+        <div class="setting">
+          <label for="length">Password length
+          <input type="range" id="length" min="8" max="128" value="128"/>
+        <br/>
+        <div class="setting">
+          <label for="uppercase">Uppercase letter</label>
+          <input type="checkbox" id="uppercase" checked />
+        <br/>
+      <div class="setting">
+        <label for="lowercase">Lowercase letter</label>
+        <input type="checkbox" id="lowercase" checked />
+        <br/>
+      <div class="setting">
+        <label for="number">Number</label>
+        <input type="checkbox" id="number" checked />
+        <br/>
+      <div class="setting">
+        <label for="special-symbol">Special symbol</label>
+        <input type="checkbox" id="special-symbol" checked />
+        <br/>
+      </div>
+        </div>
+      </div>
+        
+      </div>
+          </label>
+        </div>
+      </div>
+    </div>
+    <script src="hw3.js"></script>
+
+   
+  </body>
+</html>
