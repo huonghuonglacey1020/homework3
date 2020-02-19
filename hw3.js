@@ -42,21 +42,97 @@ clipboard.addEventListener("click", () => {
 });
 
 function getrandomlower() {
-    var lower = a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z, ;
+    var lower = ["a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z"
+];
     return lower[Math.floor(Math.random()*lower.length)];
 console.log(getrandomlower);
 function getrandomupper() {
-    var upper = A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z, ;
+    var upper = [ "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z"
+];
+;
     return upper[Math.floor(Math.random()*upper.length)];
 };
 console.log(getrandomupper);
 function getrandomnumber() {
-    var number = "0,1,2,3,4,5,6,7,8,9";
+    var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
     return number[Math.floor(Math.random()*10)];
 };
 console.log(getrandomnumber);
 function getrandomsymbol() {
-    var symbol = " !'()*+,-./:;<=>?@[\]^_`{|}~#$%&'";
+    var symbol = ["@",
+  "%",
+  "+",
+  "\\",
+  "/",
+  "'",
+  "!",
+  "#",
+  "$",
+  "^",
+  "?",
+  ":",
+  ",",
+  ")",
+  "(",
+  "}",
+  "{",
+  "]",
+  "[",
+  "~",
+  "-",
+  "_",
+  "."]
+
     return symbol[Math.floor(Math.random()*symbol.length)];
 };
 console.log(getrandomsymbol)}
