@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    color: black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: auto;
+};
+h1{
+    margin: 10px 0 20px;
+    text-align: center;
+};
+.container {
+    background-color: blueviolet;
+    box-shadow: burlywood;
+    padding: 20px;
+    width: 100%;
+
+};
